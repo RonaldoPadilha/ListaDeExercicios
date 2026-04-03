@@ -10,6 +10,6 @@ double celsius = Convert.ToDouble(Console.ReadLine());
 
 double fahrenheit = celsius * 1.8 + 32;
 Console.WriteLine();
-Console.WriteLine("A conversão é: " + fahrenheit + " °F");
+Console.WriteLine($"A conversão é: {fahrenheit} °F");
 
 Console.ReadLine();
